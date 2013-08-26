@@ -1,0 +1,29 @@
+/* BOOTSTRAP CUSTOMIZATION */
+body {background:rgba(33,33,33,0.1); font:400 14px 'Roboto',sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:'Roboto'; text-shadow:0 1px rgba(255,255,255,0.5)}
+.modal-footer {text-align:left}
+/* GENERAL STYLES */
+.color-success {color:#88b828}
+.color-fail {color:#d21f45}
+/* SECTION STYLES */
+#header {background:#219b6f; padding:.5em 0; border-bottom:1px solid #f3f3f3}
+#upper-nav {}
+.logo > a {font:300 24px 'Oswald',sans-serif; color:#f3f3f3; vertical-align: middle; text-shadow:0 1px rgba(0,0,0,0.05)}
+.logo > a:focus, .logo > a:hover {text-decoration:none}
+.logo > a > span {font-weight:400; color:#fff; text-transform:uppercase;}
+.logo > a > span:after {content:'\2022'; margin:0 .1em}
+#content {background:#f3f3f3 url(../images/bg_cloudflares.jpg) no-repeat center center fixed; padding-bottom:20px; -webkit-background-size:cover; -moz-background-size:cover;  -o-background-size:cover; background-size:cover}
+#register {margin:20px 0}
+.sidebar , .workplace {background:rgba(255,255,255,0.75); border-radius:10px}
+.sidebar a {display:block; font-weight:700; text-transform:uppercase; color:#888; text-align:left}
+.sidebar a > span {margin-right:10px}
+.sidebar a:focus, .sidebar a:hover {color:#333; text-decoration:none}
+.sidebar .on-air {background:#ddd; color:#219b6f}
+.sidebar hr {margin:0}
+.workplace {padding:10px 20px}
+.workplace > h3 {color:#666; text-transform:uppercase; margin-top:0; padding-bottom:.25em; border-bottom:1px solid #e3e3e3}
+.workplace h4, .workplace h5 {color:#666}
+.workplace h4 {border-bottom:1px dotted #ccc; padding-bottom:0.25em}
+#footer {padding:1em 0; border-top:1px solid #fff}
+#footer  .logo > a {background:#2cc68c; padding:5px 10px; border-radius:10px; font-size:75%}
+#footer  .logo > span {font-size:95%; font-weight:400; color:#666; vertical-align: middle; margin-left:10px}
