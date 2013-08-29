@@ -24,26 +24,7 @@
       </div>
       <div class="col-lg-4">
         <div id="register" class="panel panel-success">
-          <div class="panel-heading">
-            New to GreenSocial? <b>Sign Up!</b>
-          </div>
-          <div class="panel-body">            
-            <div class="form-group">
-              <label for="InputName">Your Name</label>
-              <input type="text" class="form-control" id="InputName" placeholder="Enter your name">
-            </div>          
-            <div class="form-group">
-              <label for="InputEmail">Email Address</label>
-              <input type="text" class="form-control" id="InputEmail" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="InputPassword">Password</label>
-              <input type="password" class="form-control" id="InputPassword" placeholder="Password">
-            </div>         
-            <div class="btn-group">
-              <button type="button" class="btn btn-success">Join Now</button>              
-            </div>
-          </div>
+          <?php $this->renderPartial('_register', array('model'=>$model)); ?>
         </div>
         <div id="hallfame">
           <h4>Top Popular Users</h4>
