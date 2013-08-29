@@ -47,6 +47,8 @@ class SiteController extends Controller
 		        if($model->validate())
 		        {
 		            // form inputs are valid, do something here
+		            if($model->save())
+						$this->redirect('dashboard');
 		            return;
 		        }
 		    }
