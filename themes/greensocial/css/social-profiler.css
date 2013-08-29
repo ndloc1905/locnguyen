@@ -27,3 +27,6 @@ h1,h2,h3,h4,h5,h6 {font-family:'Roboto'; text-shadow:0 1px rgba(255,255,255,0.5)
 #footer {padding:1em 0; border-top:1px solid #fff}
 #footer  .logo > a {background:#2cc68c; padding:5px 10px; border-radius:10px; font-size:75%}
 #footer  .logo > span {font-size:95%; font-weight:400; color:#666; vertical-align: middle; margin-left:10px}
+
+/* YII */
+.form-group .errorMessage {color: red;}
