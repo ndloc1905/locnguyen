@@ -21,6 +21,7 @@ class SiteController extends Controller
 		);
 	}
 
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -28,8 +29,29 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		
+		    $model=new User('register');
+
+		    // uncomment the following code to enable ajax-based validation
+		    
+		    if(isset($_POST['ajax']) && $_POST['ajax']==='user-register-form')
+		    {
+		        echo CActiveForm::validate($model);
+		        Yii::app()->end();
+		    }
+		    
+
+		    if(isset($_POST['User']))
+		    {
+		        $model->attributes=$_POST['User'];
+		        if($model->validate())
+		        {
+		            // form inputs are valid, do something here
+		            return;
+		        }
+		    }
+		    $this->render('index',array('model'=>$model));
+		
 	}
 
 	/**
@@ -71,6 +93,7 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
+
 
 	/**
 	 * Displays the login page

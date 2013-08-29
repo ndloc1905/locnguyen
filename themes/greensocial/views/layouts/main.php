@@ -9,9 +9,11 @@
   <link href="<?php echo Yii::app()->theme->baseUrl; ?>/images/favicon.ico" rel="icon" type="image/x-icon">
   <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/bootstrap.min.css" rel="stylesheet"> 
   <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/bootstrap-theme.min.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,300,400italic,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
   <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/social-profiler.css" rel="stylesheet">  
+   <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->  
+  <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/bootstrap.min.js"></script>
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/html5shiv.js"></script>
@@ -82,7 +84,6 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- JAVASCRIPT -->
-<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.min.js"></script>
-<script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/bootstrap.min.js"></script>  
+  
 </body>
 </html>
