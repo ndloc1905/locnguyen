@@ -17,7 +17,6 @@
       'validateOnType'=>false,
     ),
     )); ?>
-    <?php echo $form->errorSummary($model); ?>
     <div class="form-group">
         <?php echo $form->labelEx($model,'name'); ?>
         <?php echo $form->textField($model,'name',array('class'=>'form-control','placeholder'=>'Enter your name')); ?>
